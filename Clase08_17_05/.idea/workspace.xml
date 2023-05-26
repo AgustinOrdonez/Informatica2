@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="Clase08_17_05" targetName="Clase08_17_05" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cd21b0a4-906c-429d-a723-91533ea3d2e5" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../Clase05_26-04/MotivoVacío.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase06_03-05/motivoVacío.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase07_10_05/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase07_10_05/MainWindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase07_10_05/MainWindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase07_10_05/MainWindow.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Clase07_10_05/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/Clase08_17_05.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/CMakeLists.txt.user" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainWindow.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainWindow.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/MainWindow.ui.autosave" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecDialog.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecDialog.h" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SecDialog.ui" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.cpp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/.qtc/package-manager/auto-setup.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/.qtc/package-manager/conan.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/.qtc/package-manager/conan_support.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/CMakeCache.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/CMakeFiles/cmake.check_cache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Desktop_Qt_6_4_3_GCC_64bit-Debug/qtcsettings.cmake" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Qt_5_15_9_in_PATH_System-Debug/.cmake/api/v1/query/cache-v2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Qt_5_15_9_in_PATH_System-Debug/.cmake/api/v1/query/cmakeFiles-v1" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../build-Clase08_17_05-Qt_5_15_9_in_PATH_System-Debug/.cmake/api/v1/query/codemodel-v2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CMakeLists.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../CMakeLists.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase02_5-04/EjercicioPunto/Punto2D.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase02_5-04/EjercicioPunto/Punto2D.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase03_12-04/EjercicioHerencia/Person.h" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase03_12-04/EjercicioHerencia/Person.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Clase03_12-04/EjercicioHerencia/Persona.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/../Clase03_12-04/EjercicioHerencia/Persona.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/MainWindow.ui.autosave" beforeDir="false" afterPath="$PROJECT_DIR$/MainWindow.ui" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testing/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testing/CMakeLists.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testing/main.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testing/mainwindow.cpp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testing/mainwindow.h" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../testing/mainwindow.ui" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="1.1" />
+  </component>
+  <component name="ProjectId" id="2PwUeiJonNOUipDBmByoAhYBeJs" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "last_opened_file_path": "/home/dioswilson1/colegio/Informatica2",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "sqlite"
+    ]
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Clase08_17_05" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="Clase08_17_05" TARGET_NAME="Clase08_17_05" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="Clase08_17_05" RUN_TARGET_NAME="Clase08_17_05">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="cd21b0a4-906c-429d-a723-91533ea3d2e5" name="Changes" comment="" />
+      <created>1684367734252</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1684367734252</updated>
+      <workItem from="1684367735817" duration="230000" />
+      <workItem from="1684373491861" duration="1262000" />
+      <workItem from="1684415261455" duration="394000" />
+      <workItem from="1684415855673" duration="1407000" />
+      <workItem from="1684801195075" duration="35000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticEditVcpkgJson value="false" />
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticFoundErrors value="true" />
+  </component>
+</project>

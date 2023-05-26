@@ -11,6 +11,7 @@ protected:
     unsigned int age;
     unsigned int dni;
 
+
 public:
     Person();
     Person(std::string name,std::string surname,unsigned int age,unsigned int dni);
