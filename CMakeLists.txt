@@ -10,6 +10,13 @@ add_executable(EjercicioHerencia12-04 Clase03_12-04/EjercicioHerencia/EjercicioH
 #add_executable(EjercicioAuto19-04 Clase04_19-04/*)
 
 #QT directories
-add_subdirectory(Clase07_10_05)
-add_subdirectory(Clase08_17_05)
+add_subdirectory(Clase07_10-05)
+add_subdirectory(Clase08_17-05)
 
+add_executable(PrimerParcial Clase09_31-05/parcial/main.cpp
+        Clase09_31-05/parcial/alimentos.cpp
+        Clase09_31-05/parcial/alimentos.h
+        Clase09_31-05/parcial/articulos.cpp
+        Clase09_31-05/parcial/articulos.h
+        Clase09_31-05/parcial/ferreteria.cpp
+        Clase09_31-05/parcial/ferreteria.h)
