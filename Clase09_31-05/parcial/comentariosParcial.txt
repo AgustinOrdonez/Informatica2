@@ -1,0 +1,6 @@
+En mi opinión el parcial tuvo una dificultad adecuada, aunque no se implementaron todos los temas, tal vez si
+se hubieran implementado temas como STL no habría dado el tiempo para que todos terminen.
+Por otra parte el método con el que se toma el parcial no me termina de gustar, en vez de dar una plantilla con
+clases ya creadas preferiría que se nos presente un problema y que nosotros tengamos que resolverlo de la mejor forma
+que se nos ocurra, en mi opinión asi se aprende más (y es más entretenido), sin embargo esto llevaría más tiempoi podría
+tomarse un parcial de 3-4 horas.
