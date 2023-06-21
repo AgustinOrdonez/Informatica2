@@ -1,0 +1,3 @@
+../src/Input.cpp:10:1:Input::Input()	16	static
+../src/Input.cpp:15:1:Input::~Input()	16	static
+../src/Input.cpp:15:1:virtual Input::~Input()	16	static

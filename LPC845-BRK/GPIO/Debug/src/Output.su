@@ -1,0 +1,3 @@
+../src/Output.cpp:10:1:Output::Output()	16	static
+../src/Output.cpp:15:1:Output::~Output()	16	static
+../src/Output.cpp:15:1:virtual Output::~Output()	16	static

@@ -1,0 +1,17 @@
+/*
+ * GPIO.h
+ *
+ *  Created on: Jun 14, 2023
+ *      Author: dioswilson1
+ */
+
+#ifndef GPIO_H_
+#define GPIO_H_
+
+class GPIO {
+public:
+	GPIO();
+	virtual ~GPIO();
+};
+
+#endif /* GPIO_H_ */

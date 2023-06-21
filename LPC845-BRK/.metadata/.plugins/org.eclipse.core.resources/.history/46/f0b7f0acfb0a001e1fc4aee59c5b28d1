@@ -1,0 +1,12 @@
+#include "GPIO.h"
+
+GPIO::GPIO(port_t port, uint8_t bit, uint8_t mode, direction_t direction, activity_t activity):
+	port{port}, bit{bit}, mode{mode}, direction{direction}, activity{activity} {
+	if((port != GPIO::port0)|| (port != GPIO::port1)) {
+		this->m_error=GPIO::error;
+	}else if(port==GPIO::port0 && bit>= this->GPIO::bPort0){
+
+
+	}
+}
+

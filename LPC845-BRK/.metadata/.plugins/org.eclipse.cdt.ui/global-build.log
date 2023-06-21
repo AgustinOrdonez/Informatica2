@@ -1,0 +1,48 @@
+19:23:30 **** Incremental Build of configuration Debug for project GPIO ****
+make -r -j8 all 
+Building file: ../src/Gpio.cpp
+Invoking: MCU C++ Compiler
+arm-none-eabi-c++ -DDEBUG -D__CODE_RED -D__NEWLIB__ -DCORE_M0PLUS -D__MTB_BUFFER_SIZE=256 -D__USE_ROMDIVIDE -DCPP_USE_HEAP -D__LPC84X__ -O0 -fno-common -g3 -Wall -c -fmessage-length=0 -fno-builtin -ffunction-sections -fdata-sections -fno-rtti -fno-exceptions -fmerge-constants -fmacro-prefix-map="../src/"= -mcpu=cortex-m0 -mthumb -fstack-usage -MMD -MP -MF"src/Gpio.d" -MT"src/Gpio.o" -MT"src/Gpio.d" -o "src/Gpio.o" "../src/Gpio.cpp"
+../src/Gpio.cpp: In member function 'virtual uint8_t Gpio::setDirInputs()':
+../src/Gpio.cpp:22:16: warning: enum constant in boolean context [-Wint-in-bool-context]
+   22 |  if(this->error){
+      |                ^
+../src/Gpio.cpp: In member function 'virtual uint8_t Gpio::setDirOutputs()':
+../src/Gpio.cpp:30:16: warning: enum constant in boolean context [-Wint-in-bool-context]
+   30 |  if(this->error){
+      |                ^
+../src/Gpio.cpp: In member function 'virtual uint8_t Gpio::getPin()':
+../src/Gpio.cpp:39:1: warning: no return statement in function returning non-void [-Wreturn-type]
+   39 | }
+      | ^
+../src/Gpio.cpp: In member function 'virtual uint8_t Gpio::setPinMode()':
+../src/Gpio.cpp:40:28: warning: no return statement in function returning non-void [-Wreturn-type]
+   40 | uint8_t Gpio::setPinMode(){}
+      |                            ^
+../src/Gpio.cpp: In member function 'virtual uint8_t Gpio::clrPin()':
+../src/Gpio.cpp:41:24: warning: no return statement in function returning non-void [-Wreturn-type]
+   41 | uint8_t Gpio::clrPin(){}
+      |                        ^
+../src/Gpio.cpp: In member function 'virtual uint8_t Gpio::setTogglePin()':
+../src/Gpio.cpp:42:30: warning: no return statement in function returning non-void [-Wreturn-type]
+   42 | uint8_t Gpio::setTogglePin(){}
+      |                              ^
+../src/Gpio.cpp: In member function 'virtual uint8_t Gpio::setPinResistor()':
+../src/Gpio.cpp:43:32: warning: no return statement in function returning non-void [-Wreturn-type]
+   43 | uint8_t Gpio::setPinResistor(){}
+      |                                ^
+Finished building: ../src/Gpio.cpp
+ 
+Building target: GPIO.axf
+Invoking: MCU C++ Linker
+arm-none-eabi-c++ -nostdlib -Xlinker -Map="GPIO.map" -Xlinker --cref -Xlinker --gc-sections -Xlinker -print-memory-usage -mcpu=cortex-m0 -mthumb -T GPIO_Debug.ld -o "GPIO.axf"  ./src/GPIOmain.o ./src/Gpio.o ./src/Input.o ./src/Output.o ./src/aeabi_romdiv_patch.o ./src/cr_cpp_config.o ./src/cr_startup_lpc84x.o ./src/crp.o ./src/mtb.o   
+Memory region         Used Size  Region Size  %age Used
+        MFlash64:       16176 B        64 KB     24.68%
+        RamLoc16:        2504 B        16 KB     15.28%
+Finished building target: GPIO.axf
+ 
+Performing post-build steps
+arm-none-eabi-size "GPIO.axf"; # arm-none-eabi-objcopy -v -O binary "GPIO.axf" "GPIO.bin" ; # checksum -p LPC845 -d "GPIO.bin";
+   text	   data	    bss	    dec	    hex	filename
+  14056	   2120	    384	  16560	   40b0	GPIO.axf
+ 

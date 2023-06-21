@@ -1,0 +1,19 @@
+/*
+ * types.h
+ *
+ *  Created on: Jun 14, 2023
+ *      Author: dioswilson1
+ */
+
+#ifndef TYPES_H_
+#define TYPES_H_
+
+#define __I volatile const
+#define __O volatile
+#define __IO volatile
+
+typedef unsigned char uint8_t;
+typedef char int8_t;
+
+
+#endif /* TYPES_H_ */

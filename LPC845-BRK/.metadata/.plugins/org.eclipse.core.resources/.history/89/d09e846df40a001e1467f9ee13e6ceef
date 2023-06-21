@@ -1,0 +1,15 @@
+
+#ifndef GPIO_H_
+#define GPIO_H_
+
+#include "Input.h"
+#include "Output.h"
+
+class GPIO : public Input, public Output{
+public:
+	GPIO();
+	virtual ~GPIO();
+
+};
+
+#endif /* GPIO_H_ */
