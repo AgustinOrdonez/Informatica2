@@ -12,10 +12,12 @@
 
 
 class Input {
-public:
-	virtual uint8_t setDirInputs()=0;
-	virtual uint8_t getPin()=0;
-	virtual uint8_t setPinMode()=0;
+    public:
+        virtual uint8_t setDirInputs() = 0;
+
+        virtual uint8_t getPin() = 0;
+
+        virtual uint8_t setPinMode() = 0;
 };
 
 #endif /* INPUT_H_ */

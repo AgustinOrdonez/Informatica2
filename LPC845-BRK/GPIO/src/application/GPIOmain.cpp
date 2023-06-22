@@ -19,35 +19,35 @@
 #define CLK_GPIO1 18
 #define CLK_ICON 20
 
-void initialize(){
-	SYSCON->SYSAHBCLKCTRL0 |=(1<< CLK_GPIO0)| (1<< CLK_GPIO1)| (1<< CLK_ICON);
+void initialize() {
+    SYSCON->SYSAHBCLKCTRL0 |= (1 << CLK_GPIO0) | (1 << CLK_GPIO1) | (1 << CLK_ICON);
 
 }
 
 
 int main(void) {
-	initialize();
+    initialize();
 
-	Gpio greenLED(Gpio::port1,0,Gpio::pushpull,Gpio::output,Gpio::low);
-	Gpio blueLED(Gpio::port1,1,Gpio::pushpull,Gpio::output,Gpio::low);
-	Gpio redLED(Gpio::port1,2,Gpio::pushpull,Gpio::output,Gpio::low);
+    Gpio greenLED(Gpio::port1, 0, Gpio::pushpull, Gpio::output, Gpio::low);
+    Gpio blueLED(Gpio::port1, 1, Gpio::pushpull, Gpio::output, Gpio::low);
+    Gpio redLED(Gpio::port1, 2, Gpio::pushpull, Gpio::output, Gpio::low);
 
-	Gpio userSwitch(Gpio::port0,4,Gpio::repeater,Gpio::input,Gpio::low);
-
-
-	greenLED.clrPin();
-	blueLED.clrPin();
-	redLED.clrPin();
-
-	while(1){
-		if(userSwitch.getPin()){
-			blueLED.setPin();
-		}
-		else{
-			blueLED.clrPin();
-		}
-	}
+    Gpio userSwitch(Gpio::port0, 4, Gpio::repeater, Gpio::input, Gpio::low);
 
 
-	return 0 ;
+    greenLED.clrPin();
+    blueLED.clrPin();
+    redLED.clrPin();
+
+    while (1) {
+        if (userSwitch.getPin()) {
+            blueLED.setPin();
+        }
+        else {
+            blueLED.clrPin();
+        }
+    }
+
+
+    return 0;
 }
