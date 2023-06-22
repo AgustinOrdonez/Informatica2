@@ -1,0 +1,13 @@
+/home/dioswilson1/colegio/Informatica2/LPC845-BRK/GPIO/src/01-PIN/Input.h:14:7:constexpr Input::Input()	16	static
+/home/dioswilson1/colegio/Informatica2/LPC845-BRK/GPIO/src/01-PIN/Output.h:13:7:constexpr Output::Output()	16	static
+../src/02-Gpio/Gpio.cpp:3:1:Gpio::Gpio(Gpio::port_t, uint8_t, uint8_t, Gpio::direction_t, Gpio::activity_t)	24	static
+../src/02-Gpio/Gpio.cpp:22:9:virtual uint8_t Gpio::setDirInputs()	24	static
+../src/02-Gpio/Gpio.cpp:30:9:virtual uint8_t Gpio::setDirOutputs()	24	static
+../src/02-Gpio/Gpio.cpp:38:9:virtual uint8_t Gpio::getPin()	24	static
+../src/02-Gpio/Gpio.cpp:54:9:virtual uint8_t Gpio::setPinMode()	16	static
+../src/02-Gpio/Gpio.cpp:58:9:virtual uint8_t Gpio::setPinResistor()	16	static
+../src/02-Gpio/Gpio.cpp:62:9:virtual uint8_t Gpio::clrPin()	24	static
+../src/02-Gpio/Gpio.cpp:74:9:virtual uint8_t Gpio::setPin()	24	static
+../src/02-Gpio/Gpio.cpp:86:9:virtual uint8_t Gpio::setTogglePin()	24	static
+../src/02-Gpio/Gpio.cpp:93:1:Gpio::~Gpio()	16	static
+../src/02-Gpio/Gpio.cpp:93:1:virtual Gpio::~Gpio()	16	static

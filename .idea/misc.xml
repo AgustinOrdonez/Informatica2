@@ -1,4 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CMakeWorkspace" PROJECT_DIR="$PROJECT_DIR$" />
+  <component name="CidrRootsConfiguration">
+    <excludeRoots>
+      <file path="$PROJECT_DIR$/LPC845-BRK/.metadata" />
+      <file path="$PROJECT_DIR$/LPC845-BRK/AzureRTOS_TAD_logs" />
+      <file path="$PROJECT_DIR$/LPC845-BRK/FreeRTOS_TAD_logs" />
+    </excludeRoots>
+  </component>
 </project>
