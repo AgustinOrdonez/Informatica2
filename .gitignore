@@ -3,3 +3,4 @@ cmake-build-debug
 /LPC845-BRK/AzureRTOS_TAD_logs/
 /LPC845-BRK/FreeRTOS_TAD_logs/
 /LPC845-BRK/ZephyrRTOS_TAD_logs/
+/LPC845-BRK/GPIO/Debug/

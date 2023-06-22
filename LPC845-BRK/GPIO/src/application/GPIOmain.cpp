@@ -19,10 +19,19 @@
 #define CLK_GPIO1 18
 #define CLK_ICON 20
 
-void initialize() {
-    SYSCON->SYSAHBCLKCTRL0 |= (1 << CLK_GPIO0) | (1 << CLK_GPIO1) | (1 << CLK_ICON);
-
+#if defined (__cplusplus)
+extern "C"{
+	void SysTick_Handler();
 }
+#endif
+
+void SysTick_Handler();
+void sysTickInit();
+
+void initialize();
+
+bool sysTickInterrupt=false;
+
 
 
 int main(void) {
@@ -40,14 +49,39 @@ int main(void) {
     redLED.clrPin();
 
     while (1) {
-        if (userSwitch.getPin()) {
-            blueLED.setPin();
-        }
-        else {
-            blueLED.clrPin();
+        if(sysTickInterrupt){
+        	blueLED.setTogglePin();
+        	sysTickInterrupt=false;
         }
     }
 
 
     return 0;
 }
+
+
+void initialize() {
+    SYSCON->SYSAHBCLKCTRL0 |= (1 << CLK_GPIO0) | (1 << CLK_GPIO1) | (1 << CLK_ICON);
+
+    sysTickInit();
+}
+
+void sysTickInit(){
+	uint32_t ticks=12000;
+	SysTick->RELOAD=ticks-1;
+	SysTick->CURR=0;
+	SysTick->CTRL=7; //Ta feo per d asi
+}
+
+
+void SysTick_Handler(){//El nombre sedefine tocando una tabla en el header
+	static uint32_t contadorTicks=0;
+
+	contadorTicks++;
+
+	if(contadorTicks>=500){
+		contadorTicks=0;
+		sysTickInterrupt=true;
+	}
+}
+
