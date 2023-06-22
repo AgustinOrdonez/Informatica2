@@ -24,5 +24,7 @@ OBJS :=
 
 # Every subdirectory with source files must be described here
 SUBDIRS := \
-src \
+src/02-Gpio \
+src/application \
+src/firmware \
 
