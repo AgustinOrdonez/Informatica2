@@ -6,6 +6,8 @@
       <file path="$PROJECT_DIR$/LPC845-BRK/.metadata" />
       <file path="$PROJECT_DIR$/LPC845-BRK/AzureRTOS_TAD_logs" />
       <file path="$PROJECT_DIR$/LPC845-BRK/FreeRTOS_TAD_logs" />
+      <file path="$PROJECT_DIR$/LPC845-BRK/GPIO/Debug" />
+      <file path="$PROJECT_DIR$/LPC845-BRK/ZephyrRTOS_TAD_logs" />
     </excludeRoots>
   </component>
 </project>

@@ -6,6 +6,14 @@
 #include "Output.h"
 #include "LPC845.h"
 
+
+
+#define CLK_GPIO0 6
+#define CLK_GPIO1 18
+#define CLK_ICON 20
+
+
+
 class Gpio : public Input, public Output {
     protected:
         const uint8_t port;

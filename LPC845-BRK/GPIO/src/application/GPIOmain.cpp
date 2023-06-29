@@ -15,33 +15,16 @@
 #include "Gpio.h"
 #include "LPC845.h"
 
-#define CLK_GPIO0 6
-#define CLK_GPIO1 18
-#define CLK_ICON 20
 
-#if defined (__cplusplus)
-extern "C"{
-	void SysTick_Handler();
-}
-#endif
+#include <infotronicInit.h>
 
-void SysTick_Handler();
-void sysTickInit();
 
-void initialize();
-
-bool sysTickInterrupt=false;
 
 
 
 int main(void) {
-    initialize();
+	infotronicInit();
 
-    Gpio greenLED(Gpio::port1, 0, Gpio::pushpull, Gpio::output, Gpio::low);
-    Gpio blueLED(Gpio::port1, 1, Gpio::pushpull, Gpio::output, Gpio::low);
-    Gpio redLED(Gpio::port1, 2, Gpio::pushpull, Gpio::output, Gpio::low);
-
-    Gpio userSwitch(Gpio::port0, 4, Gpio::repeater, Gpio::input, Gpio::low);
 
 
     greenLED.clrPin();
@@ -60,28 +43,6 @@ int main(void) {
 }
 
 
-void initialize() {
-    SYSCON->SYSAHBCLKCTRL0 |= (1 << CLK_GPIO0) | (1 << CLK_GPIO1) | (1 << CLK_ICON);
-
-    sysTickInit();
-}
-
-void sysTickInit(){
-	uint32_t ticks=12000;
-	SysTick->RELOAD=ticks-1;
-	SysTick->CURR=0;
-	SysTick->CTRL=7; //Ta feo per d asi
-}
 
 
-void SysTick_Handler(){//El nombre sedefine tocando una tabla en el header
-	static uint32_t contadorTicks=0;
-
-	contadorTicks++;
-
-	if(contadorTicks>=500){
-		contadorTicks=0;
-		sysTickInterrupt=true;
-	}
-}
 

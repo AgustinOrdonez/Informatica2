@@ -12,6 +12,10 @@ Gpio::Gpio(port_t port, uint8_t bit, uint8_t mode, direction_t direction, activi
     else if ((port == Gpio::port1) && (bit >= Gpio::bPort1)) {
         this->m_error = Gpio::error;
     }
+
+    SYSCON->SYSAHBCLKCTRL0 |= (1 << CLK_GPIO0) | (1 << CLK_GPIO1) | (1 << CLK_ICON);
+
+
     if (direction == Gpio::input) {
         this->setDirInputs();
     }
