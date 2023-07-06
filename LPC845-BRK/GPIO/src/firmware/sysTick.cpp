@@ -2,6 +2,8 @@
 
 bool sysTickInterrupt=false;
 
+extern std::list<Callback *> callbackList;
+
 volatile void (*callbackFunc)(void) = nullptr ;
 
 
@@ -25,11 +27,19 @@ void SysTick_Handler(){//El nombre sedefine tocando una tabla en el header
 		contadorTicks=0;
 		sysTickInterrupt=true;
 	}
-	callbackFunc();
+
+
+	for(Callback* callback : callbackList){
+		callback->myCallback();
+	}
+	//callbackFunc();
 }
 
 
 void installSysTickCallback(void (*myCallback)()){
-	callbackFunc=(volatile void (*)()) myCallback;
+
+	if(myCallback){
+		callbackFunc=(volatile void (*)()) myCallback;
+	}
 
 }

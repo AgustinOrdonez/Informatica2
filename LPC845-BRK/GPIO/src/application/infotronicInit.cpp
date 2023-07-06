@@ -8,7 +8,7 @@ Gpio blueLED(Gpio::port1, 1, Gpio::pushpull, Gpio::output, Gpio::low);
 Gpio redLED(Gpio::port1, 2, Gpio::pushpull, Gpio::output, Gpio::low);
 Gpio userSwitch(Gpio::port0, 4, Gpio::repeater, Gpio::input, Gpio::low);
 
-
+std::list <Callback*> callbackList;
 
 void infotronicInit(){
 

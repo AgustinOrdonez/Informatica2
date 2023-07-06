@@ -4,6 +4,10 @@
 #include <list>
 #include "types.h"
 #include "LPC845.h"
+#include "Callback.h"
+
+
+//extern std::list< Callback * > callbackList;
 
 #if defined (__cplusplus)
 extern "C"{

@@ -17,19 +17,20 @@
 
 
 #include <infotronicInit.h>
+#include "Callback.h"
 
 
-
-
+void blinkRed();
 
 int main(void) {
+
 	infotronicInit();
-
-
 
     greenLED.clrPin();
     blueLED.clrPin();
     redLED.clrPin();
+
+    Callback blinkRedObject(blinkRed);
 
     while (1) {
         if(sysTickInterrupt){
@@ -42,7 +43,16 @@ int main(void) {
     return 0;
 }
 
+void blinkRed(){
+	static uint32_t contador=0;
+	contador++;
 
+	contador %= 50;
+
+	if(!contador){
+		redLED.setTogglePin();
+	}
+}
 
 
 
